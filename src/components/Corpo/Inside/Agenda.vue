@@ -1,5 +1,5 @@
 <template>
-    <div>Shedule</div>
+    <div>Schedule-em produção</div>
 </template>
 
 <script>

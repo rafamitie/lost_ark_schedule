@@ -1,5 +1,5 @@
 <template>
-    <div>DgInfinita</div>
+    <div>DgInfinita em produção</div>
 </template>
 
 <script>
