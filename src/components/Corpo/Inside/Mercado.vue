@@ -1,5 +1,5 @@
 <template>
-    <div>Mercado</div>
+    <div>Mercado vou-mecher aqui agora</div>
 </template>
 
 <script>
