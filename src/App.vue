@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <navbar-topo/>
+  <corpo-padrao/>
+  <rodape-bar/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import CorpoPadrao from './components/layouts/Corpo.vue'
+import RodapeBar from './components/layouts/Rodape.vue'
+import NavbarTopo from './components/layouts/Topo.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    CorpoPadrao,
+    RodapeBar,
+    NavbarTopo
+  },
+  data: ()=> ({
+    }),
+  methods:{}
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
