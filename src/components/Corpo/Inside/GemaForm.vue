@@ -6,7 +6,8 @@
                 <div class="col-6">
                     <input  type="number" class="form-control " v-model='gemas[index].price'>
                 </div>
-                <button class="btn btn-success col-3" type="button" @click="enviar(index, gema.id)">Atualizar </button>            </div>
+                <button class="btn btn-success col-3" type="button" @click="enviar(index, gema.id)">Atualizar </button>            
+            </div>
         </div>    
     </form>   
 </template>

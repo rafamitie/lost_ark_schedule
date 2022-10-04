@@ -16,7 +16,7 @@ import CorpoNavBar from '@/components/Corpo/CorpoNavBar.vue'
       CorpoNavBar
     },
     data: ()=>({
-      componenteRenderizar: 'Gema'
+      componenteRenderizar: 'Mercado'
     }),
     methods:{}
   }
